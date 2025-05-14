@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaidehi Bacchuwar | Data Analyst</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "X2Q1yhKY4zmeaL3q4",
+        });
+    })();
+    </script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">Vaidehi Bacchuwar</div>
+            <!-- <div class="hero-resume">
+                <a href="path/to/your-resume.pdf" class="resume-btn" download="YourName_Resume.pdf">
+                    Download Resume
+                </a>
+            </div> -->
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <!-- <a href="#projects">Projects</a> -->
+                <a href="#services">Services</a>
+                <a href="#certificate">Certifications</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <!-- Add this inside the header, after the logo -->
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-toggle-checkbox">
+                <label for="theme-toggle-checkbox" class="theme-toggle-label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <span class="theme-toggle-ball"></span>
+                </label>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="data-science-bg">
+        <div class="grid-overlay"></div>
+        <!-- Dynamic elements will be added by JavaScript -->
+    </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span>Vaidehi Bacchuwar</span></h1>
+                    <h2>Data Analyst</h2>
+                    <p>Turning complex data into meaningful insights that empower strategic business decisions. </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn-primary">View My Work</a>
+                        <!-- <a href="#contact" class="btn-secondary">Contact Me</a> -->
+                        <div class="hero-resume">
+                            <a href="Vaidehi_BacchuwarDACv (1).pdf" class="resume-btn" download="Vaidehi_BacchuwarDACv (1).pdf">
+                                Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="profile.jpg" alt="Vaidehi Bacchuwar">
+                        <!-- <div class="tech-stack">
+                            <div class="tech-icon" title="Python"><i class="fab fa-python"></i></div>
+                            <div class="tech-icon" title="SQL"><i class="fas fa-database"></i></div>
+                            <div class="tech-icon" title="Power BI"><i class="fas fa-chart-line"></i></div>
+                            <div class="tech-icon" title="Machine Learning"><i class="fas fa-robot"></i></div>
+                        </div> -->
+                    </div>
+                    <div class="achievement-badge">
+                        <div class="medal gold">
+                          <div class="ribbon"></div>
+                          <div class="circle">
+                            <span>#1</span>
+                          </div>
+                        </div>
+                        <p class="badge-label">Top Rated Data Professional 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <!-- <div class="about-image">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Vaidehi Bacchuwar">
+                </div> -->
+            <!-- <div class="hero-resume">
+                <h1>Your Name</h1>
+                <p>Web Developer | Designer</p>
+                <a href="path/to/your-resume.pdf" class="resume-btn" download="YourName_Resume.pdf">
+                    Download Resume
+                </a>
+            </div> -->
+                <div class="about-text">
+                    <h3>Aspiring Data Analyst.</h3>
+                    <p>I'm a data professional with a strong passion for Python, SQL, Power BI & Excel. Eager to leverage data-driven insights to solve real-world problems and support business decision-making through analytics and visualization.
+
+.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <h4>Education</h4>
+                            <p>Bachlors in computer Science<br> Sardar Patel Mahavidyalay (MH) (2024)</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Experience</h4>
+                            <p>Data Science and AI Trainee - NareshIT</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skills">
+                        <h4>Technical Skills</h4>
+                        <div class="skills-container">
+                            <!-- Skill Card 1 -->
+                            <div class="skill-card">
+                                <i class="fab fa-html5"></i> <!-- Font Awesome Icon -->
+                                <h3>HTML5</h3>
+                                <p>Semantic markup, accessibility</p>
+                            </div>
+    
+                            <!-- Skill Card 2 -->
+                            <div class="skill-card">
+                                <i class="fab fa-css3-alt"></i>
+                                <h3>CSS3</h3>
+                                <p>Flexbox, Grid, animations</p>
+                            </div>
+
+                            <div class="skill-card">
+                                <i class="fab fa-python"></i>
+                                <h3>Python</h3>
+                                <p>Data Analysis, Visualization</p>
+                            </div>
+
+                            <div class="skill-card">
+                                <i class="fas fa-database"></i>
+                                <h3>SQL</h3>
+                                <p>Queries, Joins, DBMS</p>
+                            </div>
+
+                            <div class="skill-card">
+                                <img src="https://img.icons8.com/color/48/power-bi.png" alt="Power BI" class="skill-icon"> <!-- Font Awesome -->
+                                <h3>Power BI</h3>
+                                <p>Dashboard, DAX, ETL</p>
+                            </div>
+
+                            <div class="skill-card">
+                                <img src="https://img.icons8.com/color/48/ms-excel.png" class="skill-icon" alt="Excel"> <!-- Icons8 -->
+                                <h3>Excel</h3>
+                                <p>Dashboard, VLOOKUP, Pivot <Table></Table></p>
+                            </div>
+
+                            <div class="skill-card">
+                                <i class="fas fa-chart-line"></i>
+                                <h3>statistics</h3>
+                                <p>Hypothesis Testing, Regression, A/B Testing <Table></Table></p>
+                            </div>
+
+                            <div class="skill-card">
+                                <i class="fab fa-robot"></i>
+                                <h3>Machine Learning</h3>
+                                <p>Regression, Classification, Scikit-learn</p>
+                            </div>
+
+                            <div class="skill-card">
+                                <i class="fab fa-brain"></i>
+                                <h3>Deep Learning</h3>
+                                <p>Neural Network, Keras, TensorFlow</p>
+                            </div>
+
+                            <div class="skill-card">
+                                <i class="fas fa-language"></i> <!-- Font Awesome -->
+                                <h3>NLP</h3>
+                                <p>BERT, Transformers, NLTK</p>
+                            </div>
+
+                            <div class="skill-card">
+                                <i class="fas fa-magic"></i> <!-- Font Awesome -->
+                                <h3>Gen AI</h3>
+                                <p>LLMs, GANs, Diffusion Models</p>
+                            </div>
+
+                            <div class="skill-card">
+                                <i class="fas fa-eye"></i> <!-- Font Awesome -->
+                                <h3>Computer Vision</h3>
+                                <p>OpenCV, CNN, Object Detection</p>
+                            </div>
+    
+                                <!-- Add more skills as needed -->
+                        </div>
+                        <!-- <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">Excel</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">NLP</span>
+                            <span class="skill-tag">Data Visualization</span>
+                            <span class="skill-tag">Business Analytics</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="projects" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Python Project">Python Project</button>
+                <button class="filter-btn" data-filter="Tableau">Tableau</button>
+                <button class="filter-btn" data-filter="machine-learning">machine-learning</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+                <button class="filter-btn" data-filter="deep-learning">Deep Learning</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="Python Project">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="ipl.jpg" alt="IPL Dataset Analysis">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>IPL Dataset Analysis</h3>
+                            <p>In-depth exploration of 🏏IPL cricket data leveraging Python for preprocessing and Power BI for interactive dashboards, revealing key insights into team dynamics, match outcomes, and individual player performances.</p>
+                            <div class="portfolio-tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Data Visualization</span>
+                            </div>
+                            <a href="https://github.com/Vaidehibacchuwar/ipl-dataset-analysis.git" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="Tableau">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="Netflix.jpg" alt="Netflix Dashboard">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Netflix Dashboard</h3>
+                            <p>This project is a comprehensive Tableau dashboard that visualizes Netflix data to uncover trends and insights in content availability, genre distribution, release patterns, and more. The goal is to provide an interactive and visually appealing way to explore Netflix's offerings over the years.</p>
+                            <div class="portfolio-tags">
+                                <span>Python</span>
+                                <span>Excel</span>
+                                <span>Tableau</span>
+                            </div>
+                            <a href="https://github.com/Vaidehibacchuwar/Netflix_Dashboard.git" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="machine-learning">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="Cancer.jpeg" alt="Mental Health Prediction">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Cancer Prediction</h3>
+                            <p>🩺A Streamlit-based web app that predicts whether a breast tumor is Benign or Malignant using a trained K-Nearest Neighbors (KNN) model. The app provides prediction results along with confidence percentages and a user-friendly interface.</p>
+                            <div class="portfolio-tags">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>Streamlit</span>
+                            </div>
+                            <a href="https://github.com/Vaidehibacchuwar/Cancer_Pridiction_app.git" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="nlp">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="chatbot.webp" alt="AI Chatbot Development">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>AI Chatbot Development</h3>
+                            <p>🤖 AI Chatbot built with NLP and Machine Learning to simulate human-like conversations. Supports contextual replies using transformer models like LLaMA. Ideal for customer support, FAQs, and virtual assistants.</p>
+                            <div class="portfolio-tags">
+                                <span>Python</span>
+                                <span>NLTK</span>
+                                <span>Transformers</span>
+                            </div>
+                            <a href="https://github.com/Vaidehibacchuwar/AI-chatbot.git" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="Python Project">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="images.jpeg" alt="Email Spam Detection">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Password Generator</h3>
+                            <p>A simple Python application that generates strong, random passwords with a customizable length and character set. The GUI is built using Tkinter, and the password can be copied to the clipboard using pyperclip for easy use. The program ensures that the generated passwords are both secure and easy to access.</p>
+                            <div class="portfolio-tags">
+                                <span>Python</span>
+                                <span>pyperclip</span>
+                                <span>tkinter</span>
+                            </div>
+                            <a href="https://github.com/Vaidehibacchuwar/password_generator.git" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="deep-learning">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="obj.jpg" alt="Object Detection Project">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Object Detection Project</h3>
+                            <p>A computer vision project that tracks moving objects in video streams. Using algorithms like CSRT, KCF, or Deep SORT, the application identifies and follows objects across frames. Ideal for real-time use cases such as surveillance, sports analytics, and motion detection.</p>
+                            <div class="portfolio-tags">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>OpenCV</span>
+                            </div>
+                            <a href="https://github.com/Vaidehibacchuwar/Object_Detection.git" class="portfolio-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+<section id="services" class="services">
+    <div class="container">
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Data Insights & Category Performance</h3>
+                <p>Unlock actionable insights through advanced analytics to drive smarter category management, pricing, and trend-based strategies.</p>
+                <ul class="service-features">
+                    <li>Consumer behavior analytics</li>
+                    <li>Dynamic pricing models</li>
+                    <li>Product trend detection</li>
+                    <li>Market and competitor insights</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3>Strategic Growth & Optimization</h3>
+                <p>Empowering businesses with tailored growth strategies based on data to boost performance, retention, and revenue.</p>
+                <ul class="service-features">
+                    <li>Customer journey & segmentation</li>
+                    <li>Funnel performance analysis</li>
+                    <li>Churn prediction & retention modeling</li>
+                    <li>KPI tracking & dashboards</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>AI-Powered Intelligent Solutions</h3>
+                <p>Delivering customized AI/ML solutions to automate workflows, enhance user experience, and drive innovation.</p>
+                <ul class="service-features">
+                    <li>Predictive & classification models</li>
+                    <li>Text analytics & NLP applications</li>
+                    <li>Image processing & computer vision</li>
+                    <li>Personalized recommendation engines</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Certifications Section -->
+    <section id="certificate" class="certifications">
+      <h2>Certifications</h2>
+      <div class="certifications-scroller">
+        <!-- Certification Cards (10 items) -->
+        <div class="cert-card">
+          <div class="cert-img">
+            <img src="C&C++.jpg" alt="ISO Certified">
+          </div>
+          <div class="cert-details">
+            <h3>Certified C & C++</h3>
+            <p>ISO(Govt. of India) • 2023-24</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img">
+            <img src="NareshIT.jpg" alt="NareshIT">
+          </div>
+          <div class="cert-details">
+            <h3>Full Stack Data Science & AI</h3>
+            <p>Naresh IT, Hyderabad • 2024</p>
+          </div>
+        </div>
+     
+        <!-- Add 8 more cards with different placeholder colors -->
+        <!-- Example: -->
+        <div class="cert-card">
+          <div class="cert-img">
+            <img src="pythonbasic.jpg" alt="Python Basic">
+          </div>
+          <div class="cert-details">
+            <h3>Python Basic</h3>
+            <p>Hackerrank • 2024</p>
+          </div>
+        </div>
+          <div class="cert-card">
+          <div class="cert-img">
+            <img src="html.jpg" alt="IIT Bombay">
+          </div>
+          <div class="cert-details">
+            <h3>HTML Spolen Tutorial Project</h3>
+            <p>• IIT Bombay 2023</p>
+          </div>
+        </div>
+        <!-- <div class="cert-card">
+          <div class="cert-img">
+            <img src="https://via.placeholder.com/300x200/00d2ff/ffffff?text=Google" alt="Google Cloud">
+          </div>
+          <div class="cert-details">
+            <h3>Google Cloud Engineer</h3>
+            <p>Google • 2024</p>
+            <a href="#" class="verify-btn">View Credential</a>
+          </div>
+        </div>
+
+        Add 8 more cards with different placeholder colors -->
+        <!-- Example: -->
+        <!-- <div class="cert-card">
+          <div class="cert-img">
+            <img src="https://via.placeholder.com/300x200/ff8c00/ffffff?text=Azure" alt="Microsoft Certified">
+          </div>
+          <div class="cert-details">
+            <h3>Azure Administrator</h3>
+            <p>Microsoft • 2023</p>
+            <a href="#" class="verify-btn">View Credential</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img">
+            <img src="https://via.placeholder.com/300x200/3a7bd5/ffffff?text=AWS" alt="AWS Certified">
+          </div>
+          <div class="cert-details">
+            <h3>AWS Solutions Architect</h3>
+            <p>Amazon • 2023</p>
+            <a href="#" class="verify-btn">View Credential</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img">
+            <img src="https://via.placeholder.com/300x200/00d2ff/ffffff?text=Google" alt="Google Cloud">
+          </div>
+          <div class="cert-details">
+            <h3>Google Cloud Engineer</h3>
+            <p>Google • 2024</p>
+            <a href="#" class="verify-btn">View Credential</a>
+          </div>
+        </div> -->
+
+        <!-- Add 8 more cards with different placeholder colors -->
+        <!-- Example: -->
+        <!-- <div class="cert-card">
+          <div class="cert-img">
+            <img src="https://via.placeholder.com/300x200/ff8c00/ffffff?text=Azure" alt="Microsoft Certified">
+          </div>
+          <div class="cert-details">
+            <h3>Azure Administrator</h3>
+            <p>Microsoft • 2023</p>
+            <a href="#" class="verify-btn">View Credential</a>
+          </div>
+        </div> -->
+
+        <!-- Continue with 7 more cards... -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Talk About Your Project</h3>
+                    <p>I'm currently available for freelance work or full-time opportunities. Feel free to reach out to discuss how I can help with your data analysis needs.</p>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p>vaidehibacchuwar@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>Phone</h4>
+                            <p>+91 9923906178</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/VaidehiBacchuwar</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Vaidehibacchuwar" class="social-link"><i class="fab fa-github"></i></a>
+                        <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.linkedin.com/in/vaidehi-bacchuwar-0953a3320" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <!-- <a href="#" class="social-link"><i class="fab fa-kaggle"></i></a> -->
+                    </div>
+                </div>
+                
+            <div class="contact-form">
+    <form id="contactForm" onsubmit="return submitForm(event)">
+        <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="subject" name="subject" placeholder="Subject">
+        </div>
+        <div class="form-group">
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+</div>
+
+<script>
+    function submitForm(event) {
+        event.preventDefault();
+        
+        // Send form using EmailJS
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', '#contactForm')
+            .then(function(response) {
+                alert('Message sent successfully!');
+                document.getElementById('contactForm').reset();
+            }, function(error) {
+                alert('Failed to send message: ' + JSON.stringify(error));
+            });
+        
+        return false;
+    }
+</script>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    Vaidehi Bacchuwar
+                </div>
+                <div class="footer-links">
+                     <a href="#home">Home</a>
+                     <a href="#about">About</a>
+                     <a href="#projects">Projects</a>  <!-- Changed from #portfolio -->
+                     <a href="#services">Services</a>
+                     <a href="#contact">Contact</a>
+                 </div>
+                </div>
+                <div class="footer-copyright">
+                    &copy; 2025 Vaidehi Bacchuwar. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
