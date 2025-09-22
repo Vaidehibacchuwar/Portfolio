@@ -1,6 +1,9 @@
+<!-- EmailJS SDK -->
 <script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+
     // ----------------------
     // Theme toggle functionality
     // ----------------------
@@ -91,14 +94,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // ----------------------
     // Contact form submission with EmailJS
     // ----------------------
-    emailjs.init("uQLoFRz5JOzs5HVwS"); // Public Key
+    emailjs.init("uQLoFRz5JOzs5HVwS"); // Your Public Key
 
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
 
-            emailjs.send("service_kf9r2wx", "template_o9hwu8b", {
+            emailjs.send("service_fjf2o2p", "template_o9hwu8b", {
                 from_name: document.getElementById('name').value,
                 from_email: document.getElementById('email').value,
                 subject: document.getElementById('subject').value,
@@ -202,3 +205,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 </script>
+
