@@ -1,9 +1,6 @@
-<!-- EmailJS SDK -->
 <script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-
     // ----------------------
     // Theme toggle functionality
     // ----------------------
@@ -205,4 +202,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 </script>
-
