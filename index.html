@@ -586,18 +586,18 @@
         event.preventDefault();
         
         // Send form using EmailJS
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', '#contactForm')
+        emailjs.sendForm('service_fjf2o2p', 'template_o9hwu8b', '#contactForm')
             .then(function(response) {
-                alert('Message sent successfully!');
+                alert('✅ Message sent successfully!');
                 document.getElementById('contactForm').reset();
             }, function(error) {
-                alert('Failed to send message: ' + JSON.stringify(error));
+                alert('❌ Failed to send message: ' + JSON.stringify(error));
             });
         
         return false;
     }
 </script>
-    </section>
+
 
     <!-- Footer -->
     <footer>
@@ -622,6 +622,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
